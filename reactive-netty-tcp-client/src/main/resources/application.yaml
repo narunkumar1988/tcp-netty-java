@@ -1,0 +1,13 @@
+server:
+  port: 9091
+tcp-client:
+  hostName: localhost
+  port: 8562
+  config:
+    keepAlive: true
+    noDelay: true
+    connectTimeoutInMillis: 250
+    idleTimeout: 250
+    maxLifeTime: 120
+    maxConnections: 50
+

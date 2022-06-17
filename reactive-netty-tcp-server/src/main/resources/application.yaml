@@ -1,0 +1,5 @@
+server:
+  port: 9090
+tcp-server:
+  hostname: localhost
+  port: 8562
